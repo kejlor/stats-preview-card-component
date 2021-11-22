@@ -44,7 +44,6 @@ body {
 
 .card {
   background: var(--clr-primary-400);
-  border-radius: 0.5rem 0.5rem 0 0;
   font-family: var(--ff-primary);
   text-align: center;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -103,11 +102,36 @@ h2 {
   }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 376px) {
+  body {
+    margin: auto;
+  }
+  .hero {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
   .header-mobile {
     display: none;
   }
   .header-desktop {
     display: block;
+  }
+  .browser-split {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .row {
+    flex: 50%;
+    width: auto;
+  }
+  .split {
+    flex-direction: row;
+  }
+  .column {
+  }
+  .card {
+    margin: auto;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    max-width: 1000px;
   }
 }
