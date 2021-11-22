@@ -35,8 +35,20 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+  .header-desktop {
+    display: none;
+  }
+  .header-mobile {
+    display: block;
+  }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 375px) {
+  .header-mobile {
+    display: none;
+  }
+  .header-desktop {
+    display: block;
+  }
 }
