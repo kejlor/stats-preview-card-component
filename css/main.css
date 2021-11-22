@@ -106,6 +106,9 @@ h2 {
   body {
     margin: auto;
   }
+  img {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
   .hero {
     border-radius: 0 0.5rem 0.5rem 0;
   }
