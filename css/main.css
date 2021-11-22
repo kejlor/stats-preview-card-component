@@ -1,0 +1,42 @@
+:root {
+  /* accent */
+  --clr-primary-100: hsl(277, 64%, 61%);
+  /* card background */
+  --clr-primary-400: hsl(244, 38%, 16%);
+  /* main background */
+  --clr-primary-900: hsl(233, 47%, 7%);
+
+  /* main heading, stats */
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  /* stat headings */
+  --clr-neutral-200: hsla(0, 0%, 100%, 0.6);
+  /* main paragraph */
+  --clr-neutral-300: hsla(0, 0%, 100%, 0.75);
+
+  --ff-primary: "Inter", sans-serif;
+  --ff-accent: "Lexend Deca", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+}
+
+@media (min-width: 1440px) {
+}
