@@ -27,6 +27,14 @@ img {
   display: block;
   max-width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
+  z-index: 100;
+  filter: brightness(80%);
+  opacity: 0.5;
+}
+
+.hero {
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: var(--clr-primary-100);
 }
 
 body {
@@ -36,9 +44,11 @@ body {
 
 .card {
   background: var(--clr-primary-400);
+  border-radius: 0.5rem 0.5rem 0 0;
   font-family: var(--ff-primary);
   text-align: center;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 1em 1em 1em 1em;
 }
 
 .card h1,
@@ -46,11 +56,21 @@ h2 {
   color: var(--clr-neutral-100);
 }
 
+.card h1,
+.card p {
+  margin: 1em 1em 1em 1em;
+}
+
 .card p {
   color: var(--clr-neutral-300);
 }
 
+.split h2 {
+  margin: 0.75em 0 0 0;
+}
+
 .split p {
+  margin: 0.5em 0 1.5em 0;
   font-family: var(--ff-accent);
   color: var(--clr-neutral-200);
 }
